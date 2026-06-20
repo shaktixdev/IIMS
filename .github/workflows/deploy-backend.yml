@@ -15,4 +15,8 @@ jobs:
     steps:
       - name: Trigger Render Deploy Hook
         run: |
-          curl -fX POST "${{ secrets.RENDER_BACKEND_DEPLOY_HOOK_URL }}"
+          if [ -z "${{ secrets.RENDER_BACKEND_DEPLOY_HOOK_URL }}" ]; then
+            echo "WARNING: RENDER_BACKEND_DEPLOY_HOOK_URL secret is not configured. Skipping deployment."
+          else
+            curl -fX POST "${{ secrets.RENDER_BACKEND_DEPLOY_HOOK_URL }}"
+          fi
