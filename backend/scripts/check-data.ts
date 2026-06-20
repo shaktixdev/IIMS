@@ -13,10 +13,15 @@ async function check() {
   await mongoose.connect(uri);
   console.log("Connected to MongoDB.");
 
+  const db = mongoose.connection.db;
+  if (!db) {
+    throw new Error("Database connection not established (db is undefined)");
+  }
+
   const collections = ["users", "items", "stocks", "categories", "vendors", "purchaseorders", "issuevouchers", "itemreturns", "warehouses"];
   for (const c of collections) {
     try {
-      const count = await mongoose.connection.db.collection(c).countDocuments();
+      const count = await db.collection(c).countDocuments();
       console.log(`Collection: ${c} - Count: ${count}`);
     } catch (e) {
       console.log(`Collection: ${c} - Not found or error`);
@@ -24,15 +29,15 @@ async function check() {
   }
 
   // Print first few items if any
-  const items = await mongoose.connection.db.collection("items").find({}).limit(3).toArray();
+  const items = await db.collection("items").find({}).limit(3).toArray();
   console.log("Items:", JSON.stringify(items, null, 2));
 
   // Print first few POs if any
-  const pos = await mongoose.connection.db.collection("purchaseorders").find({}).limit(2).toArray();
+  const pos = await db.collection("purchaseorders").find({}).limit(2).toArray();
   console.log("POs:", JSON.stringify(pos, null, 2));
 
   // Print first few Issues if any
-  const issues = await mongoose.connection.db.collection("issuevouchers").find({}).limit(2).toArray();
+  const issues = await db.collection("issuevouchers").find({}).limit(2).toArray();
   console.log("Issues:", JSON.stringify(issues, null, 2));
 
   await mongoose.disconnect();
