@@ -1,0 +1,106 @@
+name,category,unit,costPrice,minStockLevel,maxStockLevel,reorderQty,barcode,hsnCode,brand,model,isBatchTracked,isSerialTracked,hasExpiry,description,availableStock,warehouseCode
+Molasses C-grade,Raw Materials,kg,8.50,50000,500000,100000,8901234000010,17031000,Local,C-Grade,false,false,false,Heavy viscous molasses byproduct from sugar mills,500,WH-01
+Liquefying Enzyme,Raw Materials,kg,180.00,500,5000,1000,8901234000027,35079010,Novozymes,Liquozyme,true,false,true,Thermostable alpha-amylase enzyme for starch liquefaction,50,WH-01
+Saccharifying Enzyme,Raw Materials,kg,220.00,500,5000,1000,8901234000034,35079020,Novozymes,Spirizyme,true,false,true,Gluco-amylase enzyme for saccharification of starch,0,WH-01
+Active Dry Yeast,Raw Materials,kg,350.00,1000,10000,2000,8901234000041,21021010,Lallemand,Thermosacc,true,false,true,High temperature tolerant dry active yeast strain,200,WH-01
+Sulfuric Acid 98%,Raw Materials,kg,12.00,10000,80000,20000,8901234000058,28070010,Hindalco,Technical Grade,false,false,false,Industrial grade concentrated sulfuric acid for pH adjustment,150,WH-01
+Phosphoric Acid 85%,Raw Materials,kg,85.00,1000,10000,2500,8901234000065,28092010,Aditya Birla,Tech Grade,false,false,false,Nutrient source and pH control agent,150,WH-01
+Sodium Hydroxide Flakes,Raw Materials,kg,45.00,2000,20000,5000,8901234000072,28151110,GACL,Caustic Soda,false,false,false,Caustic soda flakes for cleaning in place,100,WH-01
+Urea Fertilizer Grade,Raw Materials,kg,18.00,5000,50000,10000,8901234000089,31021000,IFFCO,Technical,false,false,false,Nitrogen source for yeast fermentation nutrition,50,WH-01
+Diammonium Phosphate,Raw Materials,kg,32.00,2000,20000,5000,8901234000096,31053000,GSFC,DAP Technical,false,false,false,Phosphate and nitrogen source for yeast propagation,500,WH-01
+Antifoam Agent,Raw Materials,L,110.00,500,4000,1000,8901234000102,34021300,Resil,TRO-90,false,false,false,Turkey Red Oil antifoam agent for fermentation tanks,400,WH-01
+Denatonium Benzoate,Raw Materials,kg,4500.00,10,100,25,8901234000119,29242990,Macfarlan,Bitrex,true,false,false,Bittering agent for denaturing industrial ethanol,50,WH-01
+Crotonaldehyde Denaturant,Raw Materials,L,190.00,200,2000,500,8901234000126,29121910,Jubilant,Tech Grade,false,false,false,Denaturant chemical for rectified spirit,450,WH-01
+Methanol Denaturant,Raw Materials,L,48.00,2000,20000,5000,8901234000133,29051100,GNFC,Pure Grade,false,false,false,Denaturant for special denatured spirit,300,WH-01
+Cyclohexane Entrainer,Raw Materials,L,95.00,5000,40000,10000,8901234000140,29021100,Reliance,Azeotropic,false,false,false,Entrainer for azeotropic ethanol distillation,0,WH-01
+Citric Acid Monohydrate,Raw Materials,kg,78.00,1000,10000,2000,8901234000157,29181400,Adani,Food Grade,false,false,false,Organic acid for yeast wash and pH regulation,0,WH-01
+Bleaching Powder,Raw Materials,kg,24.00,1000,8000,2000,8901234000164,28281000,GACL,Calcium Hypochlorite,false,false,true,Disinfectant for plant sanitation and hygiene,50,WH-01
+Hydrated Lime,Raw Materials,kg,9.50,5000,40000,10000,8901234000171,25222000,Local,High Purity,false,false,false,Neutralizing agent for acidic effluents,150,WH-01
+Yeast Nutrient Salt,Raw Materials,kg,160.00,200,2000,500,8901234000188,28353900,Advance,Tech,true,false,true,Bacterial inhibitor and yeast nutrient,150,WH-01
+Polyelectrolyte Flocculant,Raw Materials,kg,280.00,100,1000,300,8901234000195,39069090,Thermax,T-100,false,false,false,Flocculating polymer for waste water treatment,400,WH-01
+Hydrochloric Acid 35%,Raw Materials,kg,15.00,2000,15000,4000,8901234000201,28061000,GACL,Commercial,false,false,false,Regeneration of demineralized water plant resins,450,WH-01
+Fuel Ethanol 99.6%,Finished Goods,L,72.50,100000,2000000,500000,8901234000218,22071000,Self,BioFuel,true,false,false,Anhydrous ethanol for petrol blending,0,WH-01
+Rectified Spirit 95%,Finished Goods,L,65.00,50000,1000000,200000,8901234000225,22072000,Self,Industrial,true,false,false,95 percent ethanol for chemical and industrial use,400,WH-01
+Extra Neutral Alcohol 96%,Finished Goods,L,78.00,50000,1000000,200000,8901234000232,22071000,Self,Premium ENA,true,false,false,High purity potable grade neutral alcohol,150,WH-01
+Technical Alcohol 92%,Finished Goods,L,55.00,20000,500000,100000,8901234000249,22072000,Self,Technical,true,false,false,Recovered low grade distillation fraction,500,WH-01
+DDGS Feed Grade,Finished Goods,kg,22.00,20000,500000,100000,8901234000256,23033000,Self,High Protein,true,false,true,Distillers Dried Grains with Solubles animal feed,400,WH-01
+DWG Wet Feed,Finished Goods,kg,12.00,10000,100000,30000,8901234000263,23033000,Self,Wet Feed,true,false,true,Distillers Wet Grains high moisture livestock feed,300,WH-01
+Fusel Oil Byproduct,Finished Goods,L,45.00,2000,50000,10000,8901234000270,38249900,Self,Fusel Oil,true,false,false,Distillation byproduct mixture of amyl alcohols,150,WH-01
+HDPE Drum 200L,Packing Material,pcs,1250.00,100,2000,500,8901234000287,39233000,Supreme,Blue Open Top,false,false,false,High density polyethylene barrel for liquid packing,350,WH-01
+HDPE Carboy 25L,Packing Material,pcs,180.00,500,5000,1000,8901234000294,39233000,Supreme,25L Handle,false,false,false,Heavy duty 25 liter plastic container,450,WH-01
+IBC Tote 1000L,Packing Material,pcs,8500.00,10,150,50,8901234000300,39233000,Schutz,Ecobulk,false,true,false,Intermediate bulk container with steel cage grid,200,WH-01
+Tanker Lock Seals,Packing Material,pcs,25.00,1000,10000,3000,8901234000317,83099000,Leghorn,SecurePull,false,false,false,Numbered security pull-tight plastic tanker wire seals,0,WH-01
+Stretch Wrap Film,Packing Material,roll,350.00,50,500,150,8901234000324,39201000,Bhartia,23 Micron,false,false,false,LDPE manual packaging stretch wrapping roll,100,WH-01
+PP Woven Bags 50kg,Packing Material,pcs,18.00,5000,100000,20000,8901234000331,63053300,Lohia,Unlaminated,false,false,false,Polypropylene woven sacks for DDGS feed packaging,300,WH-01
+Wooden Pallets,Packing Material,pcs,450.00,50,500,150,8901234000348,44152000,Local,Standard Pine,false,false,false,Four-way entry pine wood pallets 1.2m x 1m,250,WH-01
+Barcode Label Roll,Packing Material,roll,120.00,20,200,50,8901234000355,48211000,TSC,TT-76x50,false,false,false,Thermal transfer paper labels for product tagging,200,WH-01
+Corrugated Box 1L,Packing Material,box,35.00,1000,10000,2500,8901234000362,48191000,Wimplast,5-Ply Kraft,false,false,false,Outer brown box for twelve 1-liter denaturant bottles,100,WH-01
+Plastic Cap 50mm,Packing Material,pcs,4.50,2000,30000,5000,8901234000379,39235000,Supreme,Threaded,false,false,false,Sealing caps with inner rubber ring for carboys,150,WH-01
+Steel Drum 200L,Packing Material,pcs,2200.00,50,500,150,8901234000386,73101000,Balmer Lawrie,Epoxy Coated,false,false,false,Lined steel drum for special organic solvent shipments,250,WH-01
+High Temp Grease,Consumables,kg,350.00,50,500,100,8901234000393,27101980,Mobil,Mobilgrease XHP,false,false,false,Lithium complex grease for high temperature bearings,50,WH-01
+Hydraulic Oil VG 46,Consumables,L,165.00,200,2000,500,8901234000409,27101980,Castrol,Hyspin AWH-M,false,false,false,Premium anti-wear hydraulic fluid for valve actuators,50,WH-01
+Gear Oil EP 90,Consumables,L,180.00,200,1500,400,8901234000416,27101980,Shell,Spirax S2,false,false,false,Heavy duty extreme pressure gear lubricant for gearboxes,300,WH-01
+Compressor Oil,Consumables,L,240.00,100,1000,250,8901234000423,27101980,Mobil,Rarus 427,false,false,false,Rotary screw air compressor synthetic lubricant,50,WH-01
+PTFE Thread Tape,Consumables,pcs,12.00,100,2000,500,8901234000430,39209919,Teflon,12mm Width,false,false,false,Teflon thread sealant tape for pipe fitting joints,250,WH-01
+Cotton Waste Cleaning,Consumables,kg,55.00,200,2000,500,8901234000447,52029900,Local,White Hosiery,false,false,false,Absorbent cotton rags for workshop cleaning,250,WH-01
+Nitrile Gloves Box,Consumables,box,350.00,10,100,30,8901234000454,40151900,Kimberly-Clark,SafeGrip,false,false,false,Disposable chemical resistant nitrile gloves 100pcs,450,WH-01
+Safety Goggles Clear,Consumables,pcs,120.00,20,200,50,8901234000461,90049090,3M,Virtua AP,false,false,false,Anti-scratch wrap-around industrial safety glasses,200,WH-01
+Dust Mask N95,Consumables,pcs,45.00,100,1000,300,8901234000478,63079090,3M,8210,false,false,false,Particulate respirator mask for dusty coal/grain areas,0,WH-01
+Ear Plugs Foam,Consumables,pcs,15.00,200,2000,500,8901234000485,39269099,3M,1110 Corded,false,false,false,Noise reduction corded soft foam earplugs,350,WH-01
+Welding Electrode E6013,Consumables,kg,145.00,50,500,150,8901234000492,83111000,Ador,Overcord-S,false,false,false,Mild steel welding rods for structural fabrication,400,WH-01
+Anti-Rust Spray WD-40,Consumables,pcs,180.00,24,240,60,8901234000508,34031900,WD-40,Multi-Use,false,false,false,Penetrating oil rust remover and moisture displacer,50,WH-01
+pH Buffer pH 4.0,Consumables,L,150.00,2,20,5,8901234000515,38220090,Merck,Buffer-04,false,false,true,Standard pH calibration solution for lab and online meters,300,WH-01
+pH Buffer pH 7.0,Consumables,L,150.00,2,20,5,8901234000522,38220090,Merck,Buffer-07,false,false,true,Standard pH calibration solution for laboratory reference,50,WH-01
+pH Buffer pH 9.2,Consumables,L,150.00,2,20,5,8901234000539,38220090,Merck,Buffer-09,false,false,true,Alkaline pH calibration standard solution,400,WH-01
+Phenolphthalein Indicator,Consumables,mL,280.00,500,5000,1000,8901234000546,38220090,Rankem,Solution 1 percent,false,false,true,Acid-base indicator solution for laboratory titrations,200,WH-01
+Silver Nitrate 0.1N,Consumables,L,850.00,2,20,5,8901234000553,28432100,Loba Chemie,Volumetric,false,false,true,Standard analytical reagent for chloride testing,500,WH-01
+Activated Carbon,Consumables,kg,130.00,1000,10000,3000,8901234000560,38021000,Kalpaka,Granular,false,false,false,Adsorbent carbon for spirit filtration and decolorizing,450,WH-01
+Boiler Scale Inhibitor,Consumables,kg,165.00,500,5000,1500,8901234000577,38249900,Thermax,MaxTreat,false,false,false,Antiscalant chemical for high pressure steam boiler,250,WH-01
+Cooling Tower Biocide,Consumables,kg,195.00,200,2000,500,8901234000584,38089990,Thermax,BioMax,false,false,false,Non-oxidizing biocide for cooling water loop slime control,450,WH-01
+Silica Gel Blue,Consumables,kg,180.00,10,100,30,8901234000591,28112200,Desiccant,Indicating,false,false,false,Moisture indicator silica gel for air dryers,150,WH-01
+Sanding Disc 4 inch,Consumables,pcs,25.00,100,1000,300,8901234000607,68051000,Carborundum,GC-80,false,false,false,Silicon carbide grinding wheels for pipe beveling,50,WH-01
+Centrifugal Impeller,Spare Parts,pcs,12500.00,2,10,4,8901234000614,84139190,Kirloskar,DB30,false,false,false,SS316 open impeller for fermentation broth pump,0,WH-01
+Mechanical Seal 50mm,Spare Parts,set,4800.00,5,30,10,8901234000621,84842000,Burgmann,MG1-50,false,false,false,Single cartridge seal for rotary pump shaft sealing,500,WH-01
+Ball Valve 2 inch SS316,Spare Parts,pcs,3200.00,5,50,15,8901234000638,84818030,Audco,Full Bore,false,false,false,Three-piece SS316 ball valve with Teflon seats,150,WH-01
+Butterfly Valve 4 inch,Spare Parts,pcs,4500.00,4,30,10,8901234000645,848AUD40,Audco,Gear Operated,false,false,false,Wafer type butterfly valve for cooling water lines,200,WH-01
+Gate Valve 3 inch,Spare Parts,pcs,6500.00,2,20,6,8901234000652,8Aud80,Audco,Flanged,false,false,false,Cast steel flanged gate valve for steam lines,50,WH-01
+EPDM Gasket 2 inch,Spare Parts,pcs,45.00,100,1000,300,8901234000669,40169300,Spirax,Table-H,false,false,false,EPDM rubber piping gaskets for mash lines,150,WH-01
+Teflon Gasket 4 inch,Spare Parts,pcs,110.00,50,500,150,8901234000676,39269099,Spirax,Table-F,false,false,false,PTFE envelope gasket for highly acidic lines,50,WH-01
+Ball Bearing 6204,Spare Parts,pcs,180.00,10,100,30,8901234000683,84821011,SKF,6204-2Z,false,false,false,Double shielded deep groove ball bearing for motors,300,WH-01
+Roller Bearing 32210,Spare Parts,pcs,680.00,5,30,10,8901234000690,84822011,SKF,32210,false,false,false,Taper roller bearing for conveyor head shaft,200,WH-01
+V-Belt C-96,Spare Parts,pcs,240.00,6,36,12,8901234000706,40103190,Fenner,C-96,false,false,false,Wrapped classical V-belt for cooling tower fans,350,WH-01
+Pressure Relief Valve,Spare Parts,pcs,14500.00,2,10,3,8901234000713,84814000,Spirax Sarco,SV-80,false,false,false,Safety valves for distillation column overpressure,500,WH-01
+Steam Trap 1 inch,Spare Parts,pcs,5200.00,5,25,8,8901234000720,84818090,Spirax Sarco,TD-120,false,false,false,Thermodynamic steam trap for main steam line headers,250,WH-01
+Solenoid Valve 1/4,Spare Parts,pcs,1800.00,4,20,8,8901234000737,84818012,Rotex,3-Way,false,false,false,Pneumatic pilot solenoid valve for actuator operation,100,WH-01
+SS Flexible Hose 2m,Spare Parts,pcs,3800.00,2,10,4,8901234000744,83072000,Parker,SS304 Braided,false,false,false,Corrugated SS flexible connection hose for pump outlet,250,WH-01
+Carbon Brush Set,Spare Parts,set,120.00,10,100,30,8901234000751,85452000,Lucas,Grade-EG,false,false,false,Carbon brush replacements for excitation dc motors,250,WH-01
+Flange SS304 PN16 3in,Spare Parts,pcs,1150.00,10,80,25,8901234000768,73072100,Jindal,Slip-On,false,false,false,SS304 slip-on flange for piping assembly,150,WH-01
+Thermometer 0-150C,Spare Parts,pcs,1450.00,5,30,10,8901234000775,90251990,Wika,Bimetallic,false,false,false,Direct mounting bimetallic industrial dial thermometer,500,WH-01
+Glass Rotameter,Spare Parts,pcs,6800.00,2,10,3,8901234000782,90261010,Eureka,FM-100,false,false,false,Variable area glass tube water flow rate indicator,200,WH-01
+Control Valve Diaphragm,Spare Parts,pcs,1600.00,2,10,4,8901234000799,40169300,Samson,Size 3271,false,false,false,Molded EPDM diaphragm for pneumatic control valves,500,WH-01
+Spiral Gasket 6 inch,Spare Parts,pcs,220.00,10,100,30,8901234000805,84841090,Spirax,SS316 Graphite,false,false,false,Spiral wound flange gasket for high pressure steam,500,WH-01
+Y-Strainer 2 inch SS,Spare Parts,pcs,4200.00,2,15,5,8901234000812,84212190,Audco,Flanged,false,false,false,SS304 Y-type piping filter screen for water input,50,WH-01
+Check Valve 2 inch,Spare Parts,pcs,2800.00,4,20,8,8901234000829,84813000,Audco,Non-Return,false,false,false,Swing check non-return valve for preventing backflow,450,WH-01
+Fuse 10A Glass,Spare Parts,pcs,10.00,50,500,100,8901234000836,85361010,Bussmann,Fast Acting,false,false,false,Control panel instrument protection glass fuses,500,WH-01
+Limit Switch Roller,Spare Parts,pcs,850.00,5,40,15,8901234000843,85365090,Honeywell,LS-Heavy,false,false,false,Position monitoring rotary roller lever limit switch,100,WH-01
+Proximity Sensor,Spare Parts,pcs,1450.00,5,30,10,8901234000850,85365090,Omron,E2E-X10,false,false,false,Inductive proximity sensor for screw conveyor speed,400,WH-01
+Digital pH Meter,Tools & Equipment,pcs,3200.00,2,10,3,8901234000867,90278990,Hanna,HI-98107,false,false,false,Pocket pH tester for quick laboratory measurements,150,WH-01
+Refractometer 0-32 Brix,Tools & Equipment,pcs,2800.00,2,8,3,8901234000874,90275000,Erma,Handheld,false,false,false,Optical hand refractometer for sugar brix checks,100,WH-01
+Hydrometer 0.7-0.8,Tools & Equipment,pcs,450.00,5,20,8,8901234000881,90258010,Luthra,Standard,false,false,false,Glass hydrometer for density of fuel ethanol,350,WH-01
+Hydrometer 0.8-0.9,Tools & Equipment,pcs,450.00,5,20,8,8901234000898,90258010,Luthra,Standard,false,false,false,Glass hydrometer for alcohol strength verification,300,WH-01
+Alcoholometer 0-100%,Tools & Equipment,pcs,650.00,5,25,10,8901234000904,90258010,Zeal,Richter scale,false,false,false,Alcohol gravity meter for proof strength of ENA,200,WH-01
+Thermocouple Calibrator,Tools & Equipment,pcs,24500.00,1,3,1,8901234000911,90318000,Fluke,Model 714,false,true,false,Simulating and measuring handheld calibrator tool,500,WH-01
+Spanner Set 6-32mm,Tools & Equipment,set,1850.00,2,8,3,8901234000928,82041110,Taparia,Chrome Vanadium,false,false,false,Double ended open jaw ring spanners set 12pcs,400,WH-01
+Pipe Wrench 18 inch,Tools & Equipment,pcs,950.00,2,10,4,8901234000935,82041200,Taparia,Heavy Duty,false,false,false,Adjustable pipe wrench for structural heavy plumbing,150,WH-01
+Torque Wrench,Tools & Equipment,pcs,4800.00,1,5,2,8901234000942,82041110,Taparia,40-200Nm,false,true,false,Click type adjustable clicker industrial torque wrench,500,WH-01
+Angle Grinder 4in,Tools & Equipment,pcs,2800.00,2,10,4,8901234000959,84672100,Bosch,GWS 600,false,true,false,Portable electric metal cutting and dressing grinder,250,WH-01
+Welding Machine,Tools & Equipment,pcs,8500.00,1,4,2,8901234000966,85153916,Esab,Inverter 200,false,true,false,Portable single phase welding inverter plant,0,WH-01
+Multimeter Digital,Tools & Equipment,pcs,3200.00,2,10,4,8901234000973,90303100,Fluke,Model 101,false,true,false,Electrical diagnostic multimeter for volt and resistance,150,WH-01
+Infrared Thermometer,Tools & Equipment,pcs,1800.00,2,12,4,8901234000980,90251910,Fluke,Model 59Max,false,false,false,Non-contact temperature gun for bearings and motors,0,WH-01
+Vernier Caliper 300mm,Tools & Equipment,pcs,3800.00,2,8,3,8901234000997,90173010,Mitutoyo,Analog,false,true,false,Stainless steel slide vernier caliper for workshop,250,WH-01
+Gasket Cutter Tool,Tools & Equipment,pcs,2200.00,1,4,2,8901234001000,82055900,Local,Heavy Duty,false,false,false,Manual circular gasket cutter for rubber/teflon sheets,300,WH-01
+A4 Copier Paper,Office Supplies,box,320.00,5,30,10,8901234001017,48025610,JK Paper,Copier Plus,false,false,false,Premium white paper box of 5 reams,200,WH-01
+Thermal Printer Roll,Office Supplies,roll,45.00,20,200,50,8901234001024,48119092,TVS,80mm Width,false,false,false,Thermal paper rolls for weighbridge weight printouts,50,WH-01
+Permanent Marker Black,Office Supplies,box,150.00,2,10,3,8901234001031,96082000,Luxor,Broad Tip,false,false,false,Waterproof permanent marker box of 10,150,WH-01
+Daily Shift Log Book,Office Supplies,pcs,85.00,10,100,30,8901234001048,48201000,Local,Hardbound 200pg,false,false,false,Hardbound register for control room shift handover logs,450,WH-01
+Whiteboard Marker Set,Office Supplies,set,120.00,2,15,5,8901234001055,96082000,Cello,4-Color,false,false,false,Dry-erase markers pack of 4 colors for planning board,250,WH-01
