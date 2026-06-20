@@ -2,11 +2,11 @@
   "name": "iims-backend",
   "version": "1.0.0",
   "description": "Industrial Inventory Management System API Backend",
-  "main": "dist/server.js",
+  "main": "dist/src/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "node dist/src/server.js",
     "seed": "tsx scripts/seed.ts"
   },
   "dependencies": {
