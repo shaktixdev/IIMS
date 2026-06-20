@@ -5,9 +5,17 @@ import { IAlert } from "../models/Alert.model.js";
 let io: SocketServer | null = null;
 
 export function initSocketServer(server: HttpServer): SocketServer {
+  const cleanEnvVar = (val?: string) => (val || "").replace(/['"]/g, "").trim();
+  const FRONTEND_URL = cleanEnvVar(process.env.FRONTEND_URL);
+
+  const allowedOrigins = ["http://localhost:3000", "http://localhost:3001"];
+  if (FRONTEND_URL) {
+    allowedOrigins.push(FRONTEND_URL);
+  }
+
   io = new SocketServer(server, {
     cors: {
-      origin: ["http://localhost:3000", "http://localhost:3001"],
+      origin: allowedOrigins,
       methods: ["GET", "POST"],
       credentials: true,
     },
